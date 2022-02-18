@@ -1,0 +1,57 @@
+:root {
+  --bg-normal: #FFFFFF;
+  --button-point: #816DEC;
+  --button-point-pressed: #A797F0;
+  --button-text: #FFFFFF;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 16px 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.subtitle-wrapper {
+  margin-top: 4px;
+}
+
+.subtitle-wrapper > button {
+  margin-left: 4px;
+}
+
+.button-wrapper {
+  position: sticky;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 16px 16px;
+  background-color: var(--bg-normal);
+}
+
+#invert-button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--button-text);
+  background-color: var(--button-point);
+}
+
+#invert-button:hover {
+  background-color: var(--button-point-pressed);
+}

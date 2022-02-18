@@ -1,0 +1,10 @@
+{
+  "name": "Invert Color Styles",
+  "id": "1076570260579567864",
+  "api": "1.0.0",
+  "main": "dist/plugin.js",
+  "editorType": [
+    "figma"
+  ],
+  "ui": "dist/ui.html"
+}

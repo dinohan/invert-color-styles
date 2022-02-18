@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es2021", "dom"],
+    "outDir": "dist",
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@figma"
+    ]
+  }
+}
